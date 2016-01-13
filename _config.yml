@@ -120,9 +120,9 @@ scroll_to_more: false
 creative_commons: by-nc-sa
 #creative_commons:
 
-sidebar:
+# sidebar:
   # Sidebar Position, available value: left | right
-  position: left
+  # position: left
   #position: right
 
   # Sidebar Display, available value:
@@ -130,7 +130,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle icon.
-  display: post
+  # display: post
   #display: always
   #display: hide
   #display: remove
