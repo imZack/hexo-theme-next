@@ -65,6 +65,8 @@ menu_icons:
 
 # Schemes
 scheme: Mist
+#scheme: Muse
+#scheme: Pisces
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -79,6 +81,7 @@ sidebar: hide
 #sidebar: always
 #sidebar: hide
 #sidebar: remove
+
 
 # Social links
 social:
@@ -97,6 +100,10 @@ social_icons:
 
 # Sidebar Avatar
 avatar: //avatars2.githubusercontent.com/u/690703?v=3&s=200
+# in theme directory(source/images): /images/avatar.jpg
+# in site  directory(source/uploads): /uploads/avatar.jpg
+# default : /images/default_avatar.jpg
+#avatar:
 
 # TOC in the Sidebar
 toc:
@@ -113,6 +120,20 @@ scroll_to_more: false
 creative_commons: by-nc-sa
 #creative_commons:
 
+sidebar:
+  # Sidebar Position, available value: left | right
+  position: left
+  #position: right
+
+  # Sidebar Display, available value:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle icon.
+  display: post
+  #display: always
+  #display: hide
+  #display: remove
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -202,6 +223,14 @@ facebook_sdk:
   webmaster:    #true
 
 
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: false
+  app_id: #<app_id>
+  app_key: #<app_key>
+
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -221,4 +250,4 @@ js: js
 images: images
 
 # Theme version
-version: 0.4.5.2
+version: 0.5.0
