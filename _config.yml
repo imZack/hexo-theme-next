@@ -111,9 +111,6 @@ toc:
   # Automatically add list number to toc.
   number: true
 
-# Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: false
-
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
