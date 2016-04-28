@@ -1,4 +1,3 @@
-
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -6,10 +5,8 @@
 # Put your favicon.ico into `hexo-site/source/` directory.
 favicon: /favicon.ico
 
-google_analytics: UA-5959305-16
-
 # Set default keywords (Use a comma to separate)
-keywords: "somewhere, coding, python, nodejs"
+keywords: "nodejs, python, linux, mac, opensource"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -19,13 +16,7 @@ rss:
 # Specify the date when the site was setup
 #since: 2015
 
-# Icon fonts
-# Place your font into next/source/fonts, specify directory-name and font-name here
-# Avialable: default | linecons | fifty-shades | feather
-icon_font: default
-# icon_font: fifty-shades
-# icon_font: feather
-# icon_font: linecons
+
 
 
 # ---------------------------------------------------------------
@@ -37,9 +28,9 @@ menu:
   home: /
   #categories: /categories
   projects: /projects
+  about: /about
   archives: /archives
   tags: /tags
-  about: /about
   #commonweal: /404.html
 
 
@@ -58,17 +49,18 @@ menu_icons:
   archives: archive
   commonweal: heartbeat
 
+
+
+
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
+# scheme: Muse
 scheme: Mist
-#scheme: Muse
 #scheme: Pisces
 
-<<<<<<< HEAD
-=======
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -122,22 +114,12 @@ font:
 # Sidebar Settings
 # ---------------------------------------------------------------
 
-# Sidebar, available value:
-#  - post    expand on posts automatically. Default.
-#  - always  expand for all pages automatically
-#  - hide    expand only when click on the sidebar toggle icon.
-#  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: hide
-#sidebar: always
-#sidebar: hide
-#sidebar: remove
 
-
-# Social links
-social:
-  GitHub: https://github.com/imZack
-  Twitter: https://twitter.com/yuluntw
-  # Others:
+# Social Links
+# Key is the link label showing to end users.
+# Value is the target link (E.g. GitHub: https://github.com/iissnan)
+#social:
+  #LinkLabel: Link
 
 
 # Social Links Icons
@@ -149,27 +131,24 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
+  GitHub: imZack
+  Twitter: yuluntw
   # Weibo: weibo
 
 
 # Sidebar Avatar
-avatar: //avatars2.githubusercontent.com/u/690703?v=3&s=200
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
 
 
-# TOC in the Sidebar
-
+# Table Of Contents in the Sidebar
 toc:
   enable: true
+
   # Automatically add list number to toc.
   number: true
 
-# Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: false
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -201,6 +180,7 @@ sidebar:
 #links:
   #Title: http://example.com/
 
+
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -223,7 +203,7 @@ highlight_theme: normal
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: false
+scroll_to_more: true
 
 
 # Automatically Excerpt. Not recommand.
@@ -283,7 +263,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-5959305-16
 
 # CNZZ count
 #cnzz_siteid:
@@ -292,9 +272,8 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
@@ -340,6 +319,8 @@ busuanzi_count:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
+
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
